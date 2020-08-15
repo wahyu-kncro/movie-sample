@@ -1,0 +1,48 @@
+<div class="content p-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img
+          class="cover-detail box-shadow"
+          src="https://image.tmdb.org/t/p/w600_and_h900_bestv2{{
+            movie?.poster_path
+          }}"
+          alt="Movie"
+        />
+      </div>
+      <div class="col-md-6 p-4 bg-white box-shadow detail-movie">
+        <div class="row">
+          <div class="col-12">
+            <h3>{{ movie?.title }}</h3>
+            <p>
+              {{ movie?.overview }}
+            </p>
+          </div>
+          <div class="col-12 border-top mb-2">
+            <h5 class="title-detail">Genres</h5>
+            <span class="content-detail mr-3" *ngFor="let genre of movie?.genres">
+              {{ genre?.name }}&nbsp;
+            </span>
+          </div>
+          <div class="col-12 border-top mb-2">
+            <h5 class="title-detail">Status</h5>
+            <span class="content-detail">
+              {{ movie?.status }}
+            </span>
+          </div>
+          <div class="col-12 border-top mb-2">
+            <h5 class="title-detail">Rating</h5>
+            <span class="content-detail">
+              {{ movie?.vote_average }}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-slide-movie
+  [title]="'Similar Movies'"
+  [movies]="similarMovie"
+></app-slide-movie>

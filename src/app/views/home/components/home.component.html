@@ -1,0 +1,24 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Welcome</h1>
+    <p>
+      Millions of movies, TV shows and people to discover. Explore now.
+    </p>
+  </div>
+</div>
+
+<app-slide-movie
+  [movies]="newMovies"
+  [title]="'Upcoming Movies'"
+></app-slide-movie>
+
+<app-slide-movie
+  [movies]="movies"
+  [title]="'Popular'"
+></app-slide-movie>
+
+<app-slide-movie
+  [movies]="topRateMovie"
+  [title]="'Top Rate'"
+></app-slide-movie>
+

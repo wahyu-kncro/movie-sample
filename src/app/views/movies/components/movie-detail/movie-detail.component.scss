@@ -1,0 +1,26 @@
+.cover-detail {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.detail-movie {
+  border-top-right-radius: 40px;
+  height: 400px;
+  p {
+    font-weight: 300;
+    font-size: 15px;
+  }
+}
+
+.title-detail {
+  font-weight: 500;
+  font-size: 16px;
+  color: #808080;
+}
+
+.content-detail {
+  font-weight: 300;
+  font-size: 15px;
+  color: #1f1f1f;
+}
