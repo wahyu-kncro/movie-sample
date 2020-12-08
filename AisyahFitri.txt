@@ -1,0 +1,4 @@
+Latihan VCS
+Modified clone fork repository
+Dan melakukan commit
+Push & pull to fork repository
