@@ -1,0 +1,11 @@
+Nama : Winda Kartika Ningsih
+
+List Tugas Version Control System (VCS) 
+1. Fork repository
+2. Clone your fork repository
+3. Add remote repository master
+4. Fetch remote repository master
+5. Modified clone fork repository and commit
+6. Push to fork repository
+7. Request merge to master repository
+8. Squash commit (Optional)
